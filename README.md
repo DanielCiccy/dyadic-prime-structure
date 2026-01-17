@@ -33,3 +33,7 @@ The success of this "Portable Decryption" suggests that the security of RSA, par
 If a search space can be algorithmically reduced to ~5% using dyadic resonance, the computational cost of factorization drops by several orders of magnitude.
 ### Ethical Disclaimer
 This project is published for scientific and educational purposes. Its goal is to advance the state of information theory and to alert the cryptographic community to the existence of non-random structures within the prime distribution field. The author advocates for a transition toward post-quantum and resonance-resistant encryption standards.
+## 7. Deep Dive: Information Directivity
+Beyond simple filtering, this research (see testDirectivity.ipynb) explores the vectorial nature of the prime field.
+* Gradient Analysis: By measuring the "directivity" of numerical residues, we demonstrate that the search space is structured by gravitational-like attractors.
+* Non-Randomness Proof: The data confirms that $p$ and $q$ act as "singularities" in the dyadic field, allowing for a directed search rather than a stochastic one.
