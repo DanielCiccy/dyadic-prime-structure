@@ -3,7 +3,7 @@
 
 ---
 
-## 🔮 **1. Vision & Paradigm Shift / Vision & Changement de Paradigme**
+## **1. Vision & Paradigm Shift / Vision & Changement de Paradigme**
 
 This project introduces a **novel approach** to the distribution of prime numbers ($p, q$) within large integers (RSA-4096 and beyond).
 While traditional cryptanalysis relies on modular arithmetic and number field sieves (GNFS), the **Dyadic Prime Structure** (part of the *Extended Information Theory - TEI*) treats number distribution as a **localized field phenomenon** rather than a stochastic sequence.
@@ -13,7 +13,7 @@ Là où la cryptanalyse traditionnelle s’appuie sur l’arithmétique modulair
 
 ---
 
-## 🤖 **2. The Methodology: Human-AI Symbiosis / Méthodologie : Symbiose Humain-AI**
+## **2. The Methodology: Human-AI Symbiosis / Méthodologie : Symbiose Humain-AI**
 
 This work is the result of a **rigorous collaboration** between human intuition and Artificial Intelligence.
 - **The Human**: Provided the initial ontic breakthrough regarding *"arithmetic pressure thresholds"* and *"information districts"*.
@@ -25,11 +25,11 @@ Ce travail est le fruit d’une **collaboration rigoureuse** entre l’intuition
 - **L’Humain** : A apporté la percée ontique initiale sur les *"seuils de pression arithmétique"* et les *"districts d’information"*.
 - **L’IA** : A joué le rôle de *"greffier"* mathématique (scribe) et de partenaire computationnel pour formaliser ces intuitions en algorithmes Python testables.
 
-**Remarque sur la réception académique** : Ce projet a d’abord été accueilli avec scepticisme dans les cercles traditionnels, reflétant la friction naturelle entre les méthodes *"discrètes"* établies et une approche *"champ continu"* de la théorie des nombres.
+**Remarque sur la réception académique** : Ce projet a surtout été accueilli avec scepticisme dans les cercles traditionnels, reflétant la friction naturelle entre les méthodes *"discrètes"* établies et une approche *"champ continu"* de la théorie des nombres.
 
 ---
 
-## ⚡ **3. Key Results: Radical Efficiency / Résultats Clés : Efficacité Radicale**
+## **3. Key Results: Radical Efficiency / Résultats Clés : Efficacité Radicale**
 
 The core of this repository is an algorithm capable of **isolating the search space** for prime factors within a significantly reduced *"canal"*.
 - **Search Space Reduction**: Down to **3.9% - 5%** of the total numerical volume.
@@ -43,7 +43,7 @@ Le cœur de ce dépôt est un algorithme capable d’**isoler l’espace de rech
 
 ---
 
-## 🧩 **4. Core Concepts / Concepts Clés**
+## **4. Core Concepts / Concepts Clés**
 
 | English                          | Français                                  |
 |----------------------------------|-------------------------------------------|
@@ -56,7 +56,7 @@ Le cœur de ce dépôt est un algorithme capable d’**isoler l’espace de rech
 
 ---
 
-## 🚀 **5. Getting Started / Pour Commencer**
+## **5. Getting Started / Pour Commencer**
 
 The provided `.ipynb` notebook contains the **full implementation** of the detection algorithm, including the `best_tau` and `seuil` parameters used to achieve the benchmarks.
 
@@ -64,7 +64,7 @@ Le notebook `.ipynb` fourni contient l’**implémentation complète** de l’al
 
 ---
 
-## 🔍 **6. Real-World Validation: The "Sonar & Trawl" Protocol / Validation Pratique : Le Protocole "Sonar & Chalut"**
+## **6. Real-World Validation: The "Sonar & Trawl" Protocol / Validation Pratique : Le Protocole "Sonar & Chalut"**
 
 To demonstrate the validity of the Dyadic Prime Structure, we implemented a specialized tool: the **Dyadic Sonar**. This algorithm identifies the *"resonance"* of factors directly from $n$ (semi-prime), without prior knowledge of $p$ or $q$.
 
@@ -90,7 +90,7 @@ Pour valider la Structure Dyadique des Nombres Premiers, nous avons développé 
 
 ---
 
-## 🔐 **7. Implications for Modern Cryptography / Implications pour la Cryptographie Moderne**
+## **7. Implications for Modern Cryptography / Implications pour la Cryptographie Moderne**
 
 The success of this *"Portable Decryption"* suggests that the security of RSA, particularly at higher bit-lengths (2048, 4096), may not be as robust as previously assumed.
 If a search space can be **algorithmically reduced to ~5%** using dyadic resonance, the computational cost of factorization drops by **several orders of magnitude**.
@@ -100,7 +100,7 @@ Si l’espace de recherche peut être **réduit algorithmiquement à ~5%** grâc
 
 ---
 
-## ⚠️ **8. Ethical Disclaimer / Avertissement Éthique**
+## **8. Ethical Disclaimer / Avertissement Éthique**
 
 This project is published for **scientific and educational purposes**. Its goal is to advance the state of information theory and to alert the cryptographic community to the existence of **non-random structures** within the prime distribution field.
 The author advocates for a transition toward **post-quantum and resonance-resistant encryption standards**.
@@ -110,7 +110,7 @@ L’auteur plaide pour une transition vers des **standards de cryptographie post
 
 ---
 
-## 🌌 **9. Deep Dive: Information Directivity / Approfondissement : Directivité de l’Information**
+## **9. Deep Dive: Information Directivity / Approfondissement : Directivité de l’Information**
 
 Beyond simple filtering, this research (see `testDirectivity.ipynb`) explores the **vectorial nature** of the prime field.
 - **Gradient Analysis**: Measures the *"directivity"* of numerical residues, demonstrating that the search space is structured by **gravitational-like attractors**.
@@ -120,7 +120,7 @@ Au-delà du simple filtrage, cette recherche (voir `testDirectivity.ipynb`) expl
 - **Analyse de Gradient** : Mesure la *"directivité"* des résidus numériques, montrant que l’espace de recherche est structuré par des **attracteurs similaires à des champs gravitationnels**.
 - **Preuve de Non-Aléatoire** : Confirme que $p$ et $q$ agissent comme des *"singularités"* dans le champ dyadique, permettant une **recherche dirigée** plutôt que stochastique.
 
-## 🧭 10. Canonical Dyadic–Neperian Formulation / Formulation Canonique Dyadique–Népérienne
+## 10. Canonical Dyadic–Neperian Formulation / Formulation Canonique Dyadique–Népérienne
 Recent work consolidates the Dyadic Prime Structure into a canonical formulation, resolving several exploratory impasses encountered in earlier stages of the project.
 The key insight is a separation of roles between logarithmic scales: 
 - the binary logarithm ($\log_2$): defines the dyadic container, i.e., the scale or palier in which numbers reside.
